@@ -1,0 +1,715 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tipos de moradia da UE4</title>
+<meta name="description" content="Três tipos para as dezassete moradias da Rua da Casa Senhorial: T3 geminado, T4 em banda e T3 isolado, com plantas cotadas que fecham nos valores do quadro PD.01a_R01.">
+<link rel="canonical" href="https://www.villaromanadefreiria.com/tipologias/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Villa Romana de Freiria">
+<meta property="og:title" content="Tipos de moradia da UE4">
+<meta property="og:description" content="Três tipos para as dezassete moradias da Rua da Casa Senhorial: T3 geminado, T4 em banda e T3 isolado, com plantas cotadas que fecham nos valores do quadro PD.01a_R01.">
+<meta property="og:url" content="https://www.villaromanadefreiria.com/tipologias/">
+<meta property="og:locale" content="pt_PT">
+<link rel="icon" href="data:image/svg+xml,&lt;svg xmlns=&#x27;http://www.w3.org/2000/svg&#x27; viewBox=&#x27;0 0 32 32&#x27;&gt;&lt;rect width=&#x27;32&#x27; height=&#x27;32&#x27; fill=&#x27;%23eceee5&#x27;/&gt;&lt;g fill=&#x27;%23a9b3ba&#x27;&gt;&lt;rect x=&#x27;4&#x27; y=&#x27;4&#x27; width=&#x27;6&#x27; height=&#x27;6&#x27;/&gt;&lt;rect x=&#x27;16&#x27; y=&#x27;4&#x27; width=&#x27;6&#x27; height=&#x27;6&#x27;/&gt;&lt;rect x=&#x27;10&#x27; y=&#x27;10&#x27; width=&#x27;6&#x27; height=&#x27;6&#x27;/&gt;&lt;rect x=&#x27;22&#x27; y=&#x27;10&#x27; width=&#x27;6&#x27; height=&#x27;6&#x27;/&gt;&lt;rect x=&#x27;4&#x27; y=&#x27;16&#x27; width=&#x27;6&#x27; height=&#x27;6&#x27;/&gt;&lt;rect x=&#x27;16&#x27; y=&#x27;16&#x27; width=&#x27;6&#x27; height=&#x27;6&#x27;/&gt;&lt;rect x=&#x27;10&#x27; y=&#x27;22&#x27; width=&#x27;6&#x27; height=&#x27;6&#x27;/&gt;&lt;rect x=&#x27;22&#x27; y=&#x27;22&#x27; width=&#x27;6&#x27; height=&#x27;6&#x27;/&gt;&lt;/g&gt;&lt;g fill=&#x27;%23b8743f&#x27;&gt;&lt;rect x=&#x27;10&#x27; y=&#x27;4&#x27; width=&#x27;6&#x27; height=&#x27;6&#x27;/&gt;&lt;rect x=&#x27;22&#x27; y=&#x27;4&#x27; width=&#x27;6&#x27; height=&#x27;6&#x27;/&gt;&lt;rect x=&#x27;4&#x27; y=&#x27;10&#x27; width=&#x27;6&#x27; height=&#x27;6&#x27;/&gt;&lt;rect x=&#x27;16&#x27; y=&#x27;10&#x27; width=&#x27;6&#x27; height=&#x27;6&#x27;/&gt;&lt;rect x=&#x27;10&#x27; y=&#x27;16&#x27; width=&#x27;6&#x27; height=&#x27;6&#x27;/&gt;&lt;rect x=&#x27;22&#x27; y=&#x27;16&#x27; width=&#x27;6&#x27; height=&#x27;6&#x27;/&gt;&lt;rect x=&#x27;4&#x27; y=&#x27;22&#x27; width=&#x27;6&#x27; height=&#x27;6&#x27;/&gt;&lt;rect x=&#x27;16&#x27; y=&#x27;22&#x27; width=&#x27;6&#x27; height=&#x27;6&#x27;/&gt;&lt;/g&gt;&lt;/svg&gt;">
+<style>:root{color-scheme:light}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style>
+
+</head>
+<body>
+<div style="max-width:1180px;margin:0 auto;padding:12px 20px 0;font:13px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif"><a href="/" style="color:inherit;opacity:.7;text-decoration:none">← Villa Romana de Freiria</a> · <a href="/modelo-3d/" style="color:inherit;opacity:.7;text-decoration:none">Modelo 3D</a> · <a href="/tipo-a/" style="color:inherit;opacity:.7;text-decoration:none">Tipo A em volume</a></div>
+
+<meta charset="utf-8">
+<title>Tipos de moradia da UE4</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --papel:#f6f7f4; --folha:#ffffff; --tinta:#1d211b; --meia:#5d6357;
+  --traco:rgba(29,33,27,.42); --hair:rgba(29,33,27,.13);
+  --poche:#e8eae2; --A:#9a6a33; --B:#3d6b86; --C:#4e7743;
+  --Awash:rgba(154,106,51,.09); --Bwash:rgba(61,107,134,.09); --Cwash:rgba(78,119,67,.09);
+  --f-ui:"Archivo",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  --f-d:"IBM Plex Mono","Consolas",ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --papel:#13160f; --folha:#191c14; --tinta:#e6e8dd; --meia:#a3a795;
+    --traco:rgba(230,232,221,.45); --hair:rgba(230,232,221,.12);
+    --poche:#22261c; --A:#cb9a55; --B:#7fb0cf; --C:#93bb80;
+    --Awash:rgba(203,154,85,.10); --Bwash:rgba(127,176,207,.10); --Cwash:rgba(147,187,128,.10);
+  }
+}
+:root[data-theme="dark"]{
+  --papel:#13160f; --folha:#191c14; --tinta:#e6e8dd; --meia:#a3a795;
+  --traco:rgba(230,232,221,.45); --hair:rgba(230,232,221,.12);
+  --poche:#22261c; --A:#cb9a55; --B:#7fb0cf; --C:#93bb80;
+  --Awash:rgba(203,154,85,.10); --Bwash:rgba(127,176,207,.10); --Cwash:rgba(147,187,128,.10);
+}
+*{box-sizing:border-box}
+body{background:var(--papel);color:var(--tinta);font-family:var(--f-ui);
+  font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased;margin:0}
+.w{max-width:1180px;margin:0 auto;padding-inline:20px}
+h1,h2,h3{text-wrap:balance;margin:0}
+header{padding-block:46px 30px;border-bottom:1px solid var(--traco)}
+.eyebrow{font-family:var(--f-d);font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--meia);margin:0 0 12px}
+h1{font-size:clamp(28px,4.4vw,44px);font-weight:700;letter-spacing:-.018em;line-height:1.08;max-width:19ch}
+.sub{margin-top:14px;max-width:64ch;color:var(--meia);font-size:16px}
+.cmp{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin-block:30px;
+  border:1px solid var(--traco)}
+.cmp>div{padding:20px 22px}
+.cmp>div+div{border-left:1px solid var(--traco)}
+.cmp .tag{font-family:var(--f-d);font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;margin:0}
+.cmp .a .tag{color:var(--A)} .cmp .b .tag{color:var(--B)} .cmp .c .tag{color:var(--C)}
+.cmp .a{background:var(--Awash)} .cmp .b{background:var(--Bwash)} .cmp .c{background:var(--Cwash)}
+.cmp h2{font-size:21px;font-weight:600;margin:6px 0 3px;letter-spacing:-.01em}
+.cmp p.d{margin:0;font-size:13.5px;color:var(--meia)}
+.cmp dl{display:grid;grid-template-columns:auto 1fr;gap:2px 14px;margin:14px 0 0;
+  font-family:var(--f-d);font-size:12.5px;font-variant-numeric:tabular-nums}
+.cmp dt{color:var(--meia)} .cmp dd{margin:0;text-align:right}
+@media(max-width:980px){.cmp{grid-template-columns:1fr}
+  .cmp>div+div{border-left:none;border-top:1px solid var(--traco)}}
+section{padding-block:38px}
+.lead{max-width:66ch}
+h2.s{font-size:13px;letter-spacing:.15em;text-transform:uppercase;font-family:var(--f-d);
+  color:var(--meia);font-weight:600;margin-bottom:14px}
+p{margin:0 0 12px}
+.prancha{border:1px solid var(--traco);background:var(--folha);margin-block:26px}
+.pr-h{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 18px;
+  padding:16px 22px;border-bottom:1px solid var(--traco)}
+.pr-h .id{font-family:var(--f-d);font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:600}
+.pa .id{color:var(--A)} .pb .id{color:var(--B)} .pc .id{color:var(--C)}
+.pr-h h3{font-size:19px;font-weight:600;letter-spacing:-.01em}
+.pr-h .lots{margin-left:auto;font-family:var(--f-d);font-size:12px;color:var(--meia)}
+.plans{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}
+.plans>figure{margin:0;padding:20px 18px 22px;min-width:0}
+.plans>figure+figure{border-left:1px solid var(--hair)}
+figcaption{font-family:var(--f-d);font-size:11.5px;letter-spacing:.11em;text-transform:uppercase;
+  color:var(--meia);margin-bottom:10px;display:flex;justify-content:space-between;gap:10px}
+figcaption b{color:var(--tinta);font-weight:600}
+@media(max-width:860px){.plans{grid-template-columns:1fr}
+  .plans>figure+figure{border-left:none;border-top:1px solid var(--hair)}}
+svg.pl{width:100%;height:auto;max-width:100%;display:block}
+.pl .piso{fill:var(--poche);stroke:none}
+.pl .c{fill:none;stroke:var(--traco);stroke-width:.09}
+.pl .c-soc{fill:var(--Awash)}
+.pl .c-is{fill:var(--hair)} .pl .c-esc{fill:var(--hair)}
+.pb .pl .c-soc{fill:var(--Bwash)}
+.pc .pl .c-soc{fill:var(--Cwash)}
+.pl .ext{fill:none;stroke:var(--tinta);stroke-width:.30}
+.pl .rot{font-family:var(--f-ui);font-size:.5px;font-weight:500;fill:var(--tinta);
+  text-anchor:middle;letter-spacing:.012em}
+.pl .ar{font-family:var(--f-d);font-size:.44px;fill:var(--meia);text-anchor:middle;
+  font-variant-numeric:tabular-nums}
+.pl .dim line{stroke:var(--traco);stroke-width:.045}
+.pl .dim .tk{stroke-width:.06}
+.pl .dt{font-family:var(--f-d);font-size:.5px;fill:var(--meia);text-anchor:middle;
+  font-variant-numeric:tabular-nums}
+.pl .ent path{stroke:var(--A);stroke-width:.13;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.pb .pl .ent path{stroke:var(--B)}
+.pc .pl .ent path{stroke:var(--C)}
+.pl .ent-t{font-family:var(--f-d);font-size:.44px;fill:var(--A);text-anchor:start}
+.pb .pl .ent-t{fill:var(--B)}
+.pc .pl .ent-t{fill:var(--C)}
+.pl .nt{font-family:var(--f-d);font-size:.46px;fill:var(--meia);text-anchor:middle;font-style:italic}
+.q{width:100%;border-collapse:collapse;font-family:var(--f-d);font-size:12.5px;
+  font-variant-numeric:tabular-nums}
+.qwrap{overflow-x:auto;border-top:1px solid var(--traco)}
+.q th{text-align:right;font-family:var(--f-ui);font-size:11px;font-weight:600;color:var(--meia);
+  letter-spacing:.07em;text-transform:uppercase;padding:11px 14px;border-bottom:1px solid var(--traco);
+  white-space:nowrap}
+.q td{text-align:right;padding:6px 14px;border-bottom:1px solid var(--hair);white-space:nowrap}
+.q th:first-child,.q td:first-child{text-align:left}
+.q tr.t td{font-weight:600;border-top:1px solid var(--traco);border-bottom:none}
+.q tr.h td{font-family:var(--f-ui);font-size:11px;letter-spacing:.09em;text-transform:uppercase;
+  color:var(--meia);font-weight:600;padding-top:15px;border-bottom:1px solid var(--hair);text-align:left}
+.raz{padding:20px 22px 24px;border-top:1px solid var(--traco);
+  display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 30px}
+.raz h4{margin:0 0 6px;font-size:14px;font-weight:600}
+.raz p{font-size:13.5px;color:var(--meia);margin:0}
+.raz .esc{border-left:2px solid var(--A);padding-left:14px}
+.pb .raz .esc{border-left-color:var(--B)}
+.pc .raz .esc{border-left-color:var(--C)}
+.raz .alt{border-left:2px solid var(--hair);padding-left:14px}
+@media(max-width:720px){.raz{grid-template-columns:1fr}}
+ul{margin:0 0 12px;padding-left:19px} li{margin-bottom:8px;max-width:74ch}
+.aviso{border:1px solid var(--traco);border-left:3px solid var(--A);padding:16px 20px;
+  margin-block:22px;font-size:14px;max-width:78ch}
+footer{border-top:1px solid var(--traco);padding-block:26px 44px;font-size:12.5px;color:var(--meia)}
+footer p{margin:0 0 6px;max-width:78ch}
+:focus-visible{outline:2px solid var(--A);outline-offset:2px}
+@media(prefers-reduced-motion:reduce){*{animation-duration:.01ms !important;transition-duration:.01ms !important}}
+
+.pl .trc{fill:none;stroke:var(--traco);stroke-width:.07;stroke-dasharray:.5 .38}
+.pl .trc-t{font-family:var(--f-d);font-size:.44px;fill:var(--meia);text-anchor:middle;font-style:italic}
+.pl .nor line{stroke:var(--meia);stroke-width:.07}
+.pl .nor path{fill:none;stroke:var(--meia);stroke-width:.07;stroke-linejoin:round}
+.pl .nor text{font-family:var(--f-d);font-size:.5px;fill:var(--meia);text-anchor:middle}
+.pl .rot.sm{font-weight:500}
+</style>
+<div class="w">
+<header>
+  <p class="eyebrow">PPVRF &#183; Unidade de Execu&#231;&#227;o 4 &#183; Rua da Casa Senhorial</p>
+  <h1>Tr&#234;s tipos para as dezassete moradias</h1>
+  <p class="sub">Organiza&#231;&#227;o interna proposta para os 17 lotes, desenhada dentro da implanta&#231;&#227;o e da superf&#237;cie de pavimentos que o Quadro PD.01a_R01 fixa lote a lote. As &#225;reas dos compartimentos fecham exactamente nesses valores. N&#227;o &#233; projecto de arquitectura: &#233; estudo de tipo, para verificar que a tipologia recomendada cabe e como. Um tipo por forma de implanta&#231;&#227;o: geminada, isolada e em banda.</p>
+</header>
+
+<div class="cmp">
+  <div class="a">
+    <p class="tag">Tipo A &#183; T3</p>
+    <h2>Fila norte, geminada</h2>
+    <p class="d">Piso 1 pequeno, 44,43 m&#178;. Um andar s&#243; para o casal, dois quartos em baixo.</p>
+    <dl>
+      <dt>Lotes</dt><dd>270, 271, 274, 275</dd>
+      <dt>Implanta&#231;&#227;o</dt><dd>104,00 m&#178;</dd>
+      <dt>Piso 1</dt><dd>44,43 m&#178;</dd>
+      <dt>Cave, fora da SP</dt><dd>104,00 m&#178;</dd>
+      <dt>Superf&#237;cie de pavimentos</dt><dd>148,43 m&#178;</dd>
+      <dt>Rua</dt><dd>a sul</dd>
+      <dt>Fachadas com luz</dt><dd>tr&#234;s</dd>
+    </dl>
+  </div>
+  <div class="b">
+    <p class="tag">Tipo B &#183; T4</p>
+    <h2>Banda sul, em banda</h2>
+    <p class="d">Dez metros de frente e duas fachadas com luz. Quatro quartos no piso 1.</p>
+    <dl>
+      <dt>Lotes</dt><dd>276 a 286</dd>
+      <dt>Implanta&#231;&#227;o</dt><dd>100,00 m&#178;</dd>
+      <dt>Piso 1</dt><dd>103,00 m&#178;</dd>
+      <dt>Cave, fora da SP</dt><dd>100,00 m&#178;</dd>
+      <dt>Superf&#237;cie de pavimentos</dt><dd>203,00 m&#178;</dd>
+      <dt>Rua</dt><dd>a norte</dd>
+      <dt>Fachadas com luz</dt><dd>duas</dd>
+    </dl>
+  </div>
+  <div class="c">
+    <p class="tag">Tipo C &#183; T3</p>
+    <h2>Fila norte, isolada</h2>
+    <p class="d">Quatro fachadas. Os tr&#234;s quartos sobem todos, e o piso 0 fica todo social.</p>
+    <dl>
+      <dt>Lotes</dt><dd>272, 273</dd>
+      <dt>Implanta&#231;&#227;o</dt><dd>80,00 m&#178;</dd>
+      <dt>Piso 1</dt><dd>68,42 m&#178;</dd>
+      <dt>Cave, fora da SP</dt><dd>80,00 m&#178;</dd>
+      <dt>Superf&#237;cie de pavimentos</dt><dd>148,42 m&#178;</dd>
+      <dt>Rua</dt><dd>a sul</dd>
+      <dt>Fachadas com luz</dt><dd>quatro</dd>
+    </dl>
+  </div>
+</div>
+
+<section>
+  <h2 class="s">O que fixa o desenho</h2>
+  <div class="lead">
+    <p>Tr&#234;s condi&#231;&#245;es, por ordem de for&#231;a. Primeira: a implanta&#231;&#227;o e a superf&#237;cie de pavimentos <b>n&#227;o s&#227;o m&#225;ximos a optimizar</b>, s&#227;o valores que o Plano fixa lote a lote, e o Art.&#186; 25.&#186; do Regulamento remete o n&#250;mero de pisos e a c&#233;rcea para a Planta de Implanta&#231;&#227;o. Ou o desenho fecha nesses n&#250;meros, ou est&#225; errado.</p>
+    <p>Segunda: a <b>cave n&#227;o entra na superf&#237;cie de pavimentos</b>. S&#227;o 104 m&#178; no Tipo A e 100 m&#178; no Tipo B que absorvem garagem, lavandaria, arrumos e t&#233;cnica sem gastar &#225;rea habitacional. &#201; a &#250;nica raz&#227;o por que um T3 confort&#225;vel cabe em 148 m&#178; e um T4 em 203.</p>
+    <p>Terceira: a <b>luz</b>. O Tipo A tem tr&#234;s fachadas e a rua a sul; o Tipo C tem quatro, por ser isolado; o Tipo B tem duas, dez metros de frente e a rua a norte. Da&#237; vem quase toda a diferen&#231;a entre as tr&#234;s plantas.</p>
+  </div>
+</section>
+
+<section>
+<div class="prancha pa">
+  <div class="pr-h">
+    <span class="id">Tipo A</span>
+    <h3>T3 &#183; moradia unifamiliar geminada</h3>
+    <span class="lots">lotes 270 &#183; 271 &#183; 274 &#183; 275</span>
+  </div>
+  <div class="plans">
+    <figure><figcaption><span>Cave</span><b>104,00 m&#178;</b></figcaption><svg class="pl" viewBox="0 0 14.80 19.80" role="img" aria-label="Tipo A, cave" xmlns="http://www.w3.org/2000/svg">
+<rect class="piso" x="3.40" y="3.40" width="8.00" height="13.00"/>
+<rect class="c c-srv" x="3.40" y="9.90" width="8.00" height="6.50"/>
+<text class="rot" x="7.40" y="13.09" style="font-size:0.50px">Garagem 2 lugares</text>
+<text class="ar" x="7.40" y="13.77" style="font-size:0.42px">52,00</text>
+<rect class="c c-esc" x="7.40" y="8.20" width="4.00" height="1.70"/>
+<text class="rot sm" x="9.40" y="8.98" style="font-size:0.38px">Escada</text>
+<text class="ar sm" x="9.40" y="9.54" style="font-size:0.32px">6,80</text>
+<rect class="c c-srv" x="3.40" y="6.90" width="4.00" height="3.00"/>
+<text class="rot" x="5.40" y="8.34" style="font-size:0.50px">Lavandaria</text>
+<text class="ar" x="5.40" y="9.02" style="font-size:0.42px">12,00</text>
+<rect class="c c-srv" x="3.40" y="3.40" width="4.00" height="3.50"/>
+<text class="rot" x="5.40" y="5.09" style="font-size:0.50px">Arrumos</text>
+<text class="ar" x="5.40" y="5.77" style="font-size:0.42px">14,00</text>
+<rect class="c c-srv" x="7.40" y="3.40" width="2.00" height="4.80"/>
+<text class="rot sm" x="8.40" y="5.73" style="font-size:0.38px">T&#233;cnica</text>
+<text class="ar sm" x="8.40" y="6.29" style="font-size:0.32px">9,60</text>
+<rect class="c c-srv" x="9.40" y="3.40" width="2.00" height="4.80"/>
+<text class="rot sm" x="10.40" y="5.47" style="font-size:0.38px">Adega ou</text>
+<text class="rot sm" x="10.40" y="5.99" style="font-size:0.38px">gin&#225;sio</text>
+<text class="ar sm" x="10.40" y="6.55" style="font-size:0.32px">9,60</text>
+<rect class="ext" x="3.40" y="3.40" width="8.00" height="13.00"/>
+<g class="dim"><line x1="3.40" y1="18.95" x2="11.40" y2="18.95"/><line class="tk" x1="3.40" y1="18.61" x2="3.40" y2="19.29"/><line class="tk" x1="11.40" y1="18.61" x2="11.40" y2="19.29"/></g>
+<text class="dt" x="7.40" y="18.37">8,00</text>
+<g class="dim"><line x1="1.70" y1="16.40" x2="1.70" y2="9.90"/><line class="tk" x1="1.36" y1="16.40" x2="2.04" y2="16.40"/><line class="tk" x1="1.36" y1="9.90" x2="2.04" y2="9.90"/></g>
+<text class="dt" x="1.10" y="13.15" transform="rotate(-90 1.10 13.15)">6,50</text>
+<g class="dim"><line x1="1.70" y1="9.90" x2="1.70" y2="3.40"/><line class="tk" x1="1.36" y1="9.90" x2="2.04" y2="9.90"/><line class="tk" x1="1.36" y1="3.40" x2="2.04" y2="3.40"/></g>
+<text class="dt" x="1.10" y="6.65" transform="rotate(-90 1.10 6.65)">6,50</text>
+<g class="ent" transform="translate(9.40,16.40) rotate(180)"><path d="M0,0 L0,-1.55 M-0.44,-1.02 L0,-1.55 L0.44,-1.02"/></g>
+<text class="ent-t" x="10.00" y="17.70">rampa</text>
+<g class="nor"><line x1="12.75" y1="4.30" x2="12.75" y2="6.00"/><path d="M12.43,4.75 L12.75,4.30 L13.07,4.75"/><text x="12.75" y="6.65">N</text></g>
+</svg></figure>
+    <figure><figcaption><span>Piso 0</span><b>104,00 m&#178;</b></figcaption><svg class="pl" viewBox="0 0 14.80 19.80" role="img" aria-label="Tipo A, piso 0" xmlns="http://www.w3.org/2000/svg">
+<rect class="piso" x="3.40" y="3.40" width="8.00" height="13.00"/>
+<rect class="c c-soc" x="3.40" y="11.40" width="8.00" height="5.00"/>
+<text class="rot" x="7.40" y="13.84" style="font-size:0.50px">Sala de estar e jantar</text>
+<text class="ar" x="7.40" y="14.52" style="font-size:0.42px">40,00</text>
+<rect class="c c-soc" x="3.40" y="8.20" width="4.00" height="3.20"/>
+<text class="rot" x="5.40" y="9.74" style="font-size:0.50px">Cozinha</text>
+<text class="ar" x="5.40" y="10.42" style="font-size:0.42px">12,80</text>
+<rect class="c c-esc" x="7.40" y="8.20" width="4.00" height="3.20"/>
+<text class="rot" x="9.40" y="9.74" style="font-size:0.50px">Hall e escada</text>
+<text class="ar" x="9.40" y="10.42" style="font-size:0.42px">12,80</text>
+<rect class="c c-qt" x="3.40" y="3.40" width="3.60" height="4.80"/>
+<text class="rot" x="5.20" y="5.74" style="font-size:0.50px">Quarto 2</text>
+<text class="ar" x="5.20" y="6.42" style="font-size:0.42px">17,28</text>
+<rect class="c c-qt" x="7.00" y="3.40" width="2.80" height="4.80"/>
+<text class="rot" x="8.40" y="5.74" style="font-size:0.50px">Quarto 3</text>
+<text class="ar" x="8.40" y="6.42" style="font-size:0.42px">13,44</text>
+<rect class="c c-is" x="9.80" y="5.40" width="1.60" height="2.80"/>
+<text class="rot sm" x="10.60" y="6.73" style="font-size:0.38px">IS</text>
+<text class="ar sm" x="10.60" y="7.29" style="font-size:0.32px">4,48</text>
+<rect class="c c-srv" x="9.80" y="3.40" width="1.60" height="2.00"/>
+<text class="rot sm" x="10.60" y="4.33" style="font-size:0.35px">Arrumos</text>
+<text class="ar sm" x="10.60" y="4.86" style="font-size:0.30px">3,20</text>
+<rect class="ext" x="3.40" y="3.40" width="8.00" height="13.00"/>
+<g class="dim"><line x1="3.40" y1="18.95" x2="11.40" y2="18.95"/><line class="tk" x1="3.40" y1="18.61" x2="3.40" y2="19.29"/><line class="tk" x1="11.40" y1="18.61" x2="11.40" y2="19.29"/></g>
+<text class="dt" x="7.40" y="18.37">8,00</text>
+<g class="dim"><line x1="1.70" y1="16.40" x2="1.70" y2="11.40"/><line class="tk" x1="1.36" y1="16.40" x2="2.04" y2="16.40"/><line class="tk" x1="1.36" y1="11.40" x2="2.04" y2="11.40"/></g>
+<text class="dt" x="1.10" y="13.90" transform="rotate(-90 1.10 13.90)">5,00</text>
+<g class="dim"><line x1="1.70" y1="11.40" x2="1.70" y2="8.20"/><line class="tk" x1="1.36" y1="11.40" x2="2.04" y2="11.40"/><line class="tk" x1="1.36" y1="8.20" x2="2.04" y2="8.20"/></g>
+<text class="dt" x="1.10" y="9.80" transform="rotate(-90 1.10 9.80)">3,20</text>
+<g class="dim"><line x1="1.70" y1="8.20" x2="1.70" y2="3.40"/><line class="tk" x1="1.36" y1="8.20" x2="2.04" y2="8.20"/><line class="tk" x1="1.36" y1="3.40" x2="2.04" y2="3.40"/></g>
+<text class="dt" x="1.10" y="5.80" transform="rotate(-90 1.10 5.80)">4,80</text>
+<g class="ent" transform="translate(9.40,16.40) rotate(180)"><path d="M0,0 L0,-1.55 M-0.44,-1.02 L0,-1.55 L0.44,-1.02"/></g>
+<text class="ent-t" x="10.00" y="17.70">entrada</text>
+<g class="nor"><line x1="12.75" y1="4.30" x2="12.75" y2="6.00"/><path d="M12.43,4.75 L12.75,4.30 L13.07,4.75"/><text x="12.75" y="6.65">N</text></g>
+</svg></figure>
+    <figure><figcaption><span>Piso 1</span><b>44,40 m&#178;</b></figcaption><svg class="pl" viewBox="0 0 14.80 19.80" role="img" aria-label="Tipo A, piso 1" xmlns="http://www.w3.org/2000/svg">
+<rect class="piso" x="3.40" y="3.40" width="8.00" height="5.55"/>
+<rect class="trc" x="3.40" y="8.95" width="8.00" height="7.45"/>
+<text class="trc-t" x="7.40" y="12.67">terra&#231;o 59,60 m&#178;</text>
+<rect class="c c-qt" x="3.40" y="3.40" width="3.60" height="5.55"/>
+<text class="rot" x="5.20" y="5.79" style="font-size:0.50px">Su&#237;te</text>
+<text class="rot" x="5.20" y="6.43" style="font-size:0.50px">quarto</text>
+<text class="ar" x="5.20" y="7.12" style="font-size:0.42px">19,98</text>
+<rect class="c c-srv" x="7.00" y="4.90" width="1.60" height="4.05"/>
+<text class="rot sm" x="7.80" y="6.86" style="font-size:0.38px">Closet</text>
+<text class="ar sm" x="7.80" y="7.42" style="font-size:0.32px">6,48</text>
+<rect class="c c-srv" x="7.00" y="3.40" width="1.60" height="1.50"/>
+<text class="rot sm" x="7.80" y="4.07" style="font-size:0.32px">Roupeiro</text>
+<text class="ar sm" x="7.80" y="4.57" style="font-size:0.28px">2,40</text>
+<rect class="c c-esc" x="8.60" y="6.15" width="2.80" height="2.80"/>
+<text class="rot sm" x="10.00" y="7.22" style="font-size:0.38px">Escada</text>
+<text class="rot sm" x="10.00" y="7.74" style="font-size:0.38px">patamar</text>
+<text class="ar sm" x="10.00" y="8.30" style="font-size:0.32px">7,84</text>
+<rect class="c c-is" x="8.60" y="3.40" width="2.80" height="2.75"/>
+<text class="rot sm" x="10.00" y="4.71" style="font-size:0.38px">IS da su&#237;te</text>
+<text class="ar sm" x="10.00" y="5.26" style="font-size:0.32px">7,70</text>
+<rect class="ext" x="3.40" y="3.40" width="8.00" height="5.55"/>
+<g class="dim"><line x1="3.40" y1="18.95" x2="11.40" y2="18.95"/><line class="tk" x1="3.40" y1="18.61" x2="3.40" y2="19.29"/><line class="tk" x1="11.40" y1="18.61" x2="11.40" y2="19.29"/></g>
+<text class="dt" x="7.40" y="18.37">8,00</text>
+<g class="dim"><line x1="1.70" y1="8.95" x2="1.70" y2="3.40"/><line class="tk" x1="1.36" y1="8.95" x2="2.04" y2="8.95"/><line class="tk" x1="1.36" y1="3.40" x2="2.04" y2="3.40"/></g>
+<text class="dt" x="1.10" y="6.17" transform="rotate(-90 1.10 6.17)">5,55</text>
+<g class="dim"><line x1="1.70" y1="16.40" x2="1.70" y2="8.95"/><line class="tk" x1="1.36" y1="16.40" x2="2.04" y2="16.40"/><line class="tk" x1="1.36" y1="8.95" x2="2.04" y2="8.95"/></g>
+<text class="dt" x="1.10" y="12.67" transform="rotate(-90 1.10 12.67)">7,45</text>
+<g class="nor"><line x1="12.75" y1="4.30" x2="12.75" y2="6.00"/><path d="M12.43,4.75 L12.75,4.30 L13.07,4.75"/><text x="12.75" y="6.65">N</text></g>
+</svg></figure>
+  </div>
+  <div class="raz">
+    <div class="esc">
+      <h4>Volume superior recuado para norte</h4>
+      <p>Os 44,43 m&#178; do piso 1 assentam no topo norte do rect&#226;ngulo. O piso 0 fica descoberto nos 7,45 m do lado da rua, o que d&#225; um terra&#231;o de 59,60 m&#178; virado a sul, e nada faz sombra ao logradouro. O casal ganha um andar inteiro; os outros dois quartos ficam em baixo, encostados ao jardim norte.</p>
+    </div>
+    <div class="alt">
+      <h4>Alternativa posta de lado: volume a sul</h4>
+      <p>Encostar o piso 1 &#224; rua daria mais presen&#231;a urbana e alinharia com a banda em frente. Rejeitada por duas raz&#245;es: o terra&#231;o passaria a virar a norte, sem sol, e o volume ensombraria a &#250;nica frente sul do lote, que nesta fila &#233; justamente a da rua.</p>
+    </div>
+    <div class="alt">
+      <h4>Porqu&#234; o casal em cima e n&#227;o dois quartos</h4>
+      <p>Trinta e oito metros quadrados &#250;teis num piso s&#243; comportam duas camas depois de descontar escada e instala&#231;&#227;o sanit&#225;ria, e os dois quartos sairiam ambos med&#237;ocres. Um andar de casal, com closet e IS pr&#243;pria, aproveita a mesma &#225;rea sem a repartir mal.</p>
+    </div>
+    <div class="alt">
+      <h4>Se quiser T4</h4>
+      <p>O quarto suplementar sai dos arrumos mais parte da sala, no piso 0. &#201; o limite de aproveitamento da superf&#237;cie de pavimentos, com a sala a descer de 40 para cerca de 30 m&#178;. Cabe, mas troca-se a sala pelo quarto.</p>
+    </div>
+  </div>
+  <div class="qwrap"><table class="q">
+    <thead><tr><th>Compartimento</th><th>Dimens&#227;o m</th><th>&#193;rea m&#178;</th><th>Entra na SP</th></tr></thead>
+    <tbody><tr class="h"><td colspan="4">Cave &#183; fora da superf&#237;cie de pavimentos</td></tr>
+<tr><td>Garagem, 2 lugares</td><td>8,00 &#215; 6,50</td><td>52,00</td><td>&#183;</td></tr>
+<tr><td>Arrumos</td><td>4,00 &#215; 3,50</td><td>14,00</td><td>&#183;</td></tr>
+<tr><td>Lavandaria</td><td>4,00 &#215; 3,00</td><td>12,00</td><td>&#183;</td></tr>
+<tr><td>T&#233;cnica</td><td>2,00 &#215; 4,80</td><td>9,60</td><td>&#183;</td></tr>
+<tr><td>Adega ou gin&#225;sio</td><td>2,00 &#215; 4,80</td><td>9,60</td><td>&#183;</td></tr>
+<tr><td>Escada e &#225;trio</td><td>4,00 &#215; 1,70</td><td>6,80</td><td>&#183;</td></tr>
+<tr class="t"><td>Cave</td><td>8,00 &#215; 13,00</td><td>104,00</td><td>n&#227;o</td></tr>
+<tr class="h"><td colspan="4">Piso 0 &#183; implanta&#231;&#227;o</td></tr>
+<tr><td>Sala de estar e jantar</td><td>8,00 &#215; 5,00</td><td>40,00</td><td>&#183;</td></tr>
+<tr><td>Quarto 2</td><td>3,60 &#215; 4,80</td><td>17,28</td><td>&#183;</td></tr>
+<tr><td>Quarto 3</td><td>2,80 &#215; 4,80</td><td>13,44</td><td>&#183;</td></tr>
+<tr><td>Cozinha</td><td>4,00 &#215; 3,20</td><td>12,80</td><td>&#183;</td></tr>
+<tr><td>Hall e escada</td><td>4,00 &#215; 3,20</td><td>12,80</td><td>&#183;</td></tr>
+<tr><td>IS comum</td><td>1,60 &#215; 2,80</td><td>4,48</td><td>&#183;</td></tr>
+<tr><td>Arrumos</td><td>1,60 &#215; 2,00</td><td>3,20</td><td>&#183;</td></tr>
+<tr class="t"><td>Piso 0</td><td>8,00 &#215; 13,00</td><td>104,00</td><td>sim</td></tr>
+<tr class="h"><td colspan="4">Piso 1</td></tr>
+<tr><td>Su&#237;te, quarto</td><td>3,60 &#215; 5,55</td><td>19,98</td><td>&#183;</td></tr>
+<tr><td>Escada e patamar</td><td>2,80 &#215; 2,80</td><td>7,84</td><td>&#183;</td></tr>
+<tr><td>Su&#237;te, IS</td><td>2,80 &#215; 2,75</td><td>7,70</td><td>&#183;</td></tr>
+<tr><td>Closet</td><td>1,60 &#215; 4,05</td><td>6,48</td><td>&#183;</td></tr>
+<tr><td>Roupeiro</td><td>1,60 &#215; 1,50</td><td>2,40</td><td>&#183;</td></tr>
+<tr class="t"><td>Piso 1</td><td>8,00 &#215; 5,55</td><td>44,40</td><td>sim</td></tr>
+<tr class="t"><td>Superf&#237;cie de pavimentos</td><td>&#183;</td><td>148,40</td><td>quadro: 148,43</td></tr></tbody>
+  </table></div>
+</div>
+</section>
+
+<section>
+<div class="prancha pb">
+  <div class="pr-h">
+    <span class="id">Tipo B</span>
+    <h3>T4 &#183; moradia unifamiliar em banda</h3>
+    <span class="lots">lotes 276 a 286</span>
+  </div>
+  <div class="plans">
+    <figure><figcaption><span>Cave</span><b>100,00 m&#178;</b></figcaption><svg class="pl" viewBox="0 0 16.80 16.80" role="img" aria-label="Tipo B, cave" xmlns="http://www.w3.org/2000/svg">
+<rect class="piso" x="3.40" y="3.40" width="10.00" height="10.00"/>
+<rect class="c c-srv" x="3.40" y="3.40" width="10.00" height="5.50"/>
+<text class="rot" x="8.40" y="6.09" style="font-size:0.50px">Garagem 2 lugares</text>
+<text class="ar" x="8.40" y="6.77" style="font-size:0.42px">55,00</text>
+<rect class="c c-esc" x="6.40" y="8.90" width="3.00" height="2.50"/>
+<text class="rot sm" x="7.90" y="10.08" style="font-size:0.38px">Escada</text>
+<text class="ar sm" x="7.90" y="10.64" style="font-size:0.32px">7,50</text>
+<rect class="c c-srv" x="3.40" y="8.90" width="3.00" height="4.50"/>
+<text class="rot" x="4.90" y="11.09" style="font-size:0.50px">Lavandaria</text>
+<text class="ar" x="4.90" y="11.77" style="font-size:0.42px">13,50</text>
+<rect class="c c-srv" x="9.40" y="8.90" width="4.00" height="2.50"/>
+<text class="rot" x="11.40" y="10.09" style="font-size:0.50px">Arrumos</text>
+<text class="ar" x="11.40" y="10.77" style="font-size:0.42px">10,00</text>
+<rect class="c c-srv" x="6.40" y="11.40" width="3.00" height="2.00"/>
+<text class="rot sm" x="7.90" y="12.33" style="font-size:0.38px">T&#233;cnica</text>
+<text class="ar sm" x="7.90" y="12.89" style="font-size:0.32px">6,00</text>
+<rect class="c c-srv" x="9.40" y="11.40" width="4.00" height="2.00"/>
+<text class="rot sm" x="11.40" y="12.33" style="font-size:0.38px">Adega ou gin&#225;sio</text>
+<text class="ar sm" x="11.40" y="12.89" style="font-size:0.32px">8,00</text>
+<rect class="ext" x="3.40" y="3.40" width="10.00" height="10.00"/>
+<g class="dim"><line x1="3.40" y1="15.95" x2="13.40" y2="15.95"/><line class="tk" x1="3.40" y1="15.61" x2="3.40" y2="16.29"/><line class="tk" x1="13.40" y1="15.61" x2="13.40" y2="16.29"/></g>
+<text class="dt" x="8.40" y="15.37">10,00</text>
+<g class="dim"><line x1="1.70" y1="3.40" x2="1.70" y2="8.90"/><line class="tk" x1="1.36" y1="3.40" x2="2.04" y2="3.40"/><line class="tk" x1="1.36" y1="8.90" x2="2.04" y2="8.90"/></g>
+<text class="dt" x="1.10" y="6.15" transform="rotate(-90 1.10 6.15)">5,50</text>
+<g class="dim"><line x1="1.70" y1="8.90" x2="1.70" y2="13.40"/><line class="tk" x1="1.36" y1="8.90" x2="2.04" y2="8.90"/><line class="tk" x1="1.36" y1="13.40" x2="2.04" y2="13.40"/></g>
+<text class="dt" x="1.10" y="11.15" transform="rotate(-90 1.10 11.15)">4,50</text>
+<g class="ent" transform="translate(8.40,3.40) rotate(0)"><path d="M0,0 L0,-1.55 M-0.44,-1.02 L0,-1.55 L0.44,-1.02"/></g>
+<text class="ent-t" x="9.00" y="2.35">rampa</text>
+<g class="nor"><line x1="14.75" y1="4.30" x2="14.75" y2="6.00"/><path d="M14.43,4.75 L14.75,4.30 L15.07,4.75"/><text x="14.75" y="6.65">N</text></g>
+</svg></figure>
+    <figure><figcaption><span>Piso 0</span><b>100,00 m&#178;</b></figcaption><svg class="pl" viewBox="0 0 16.80 16.80" role="img" aria-label="Tipo B, piso 0" xmlns="http://www.w3.org/2000/svg">
+<rect class="piso" x="3.40" y="3.40" width="10.00" height="10.00"/>
+<rect class="c c-esc" x="3.40" y="3.40" width="3.00" height="3.60"/>
+<text class="rot" x="4.90" y="4.82" style="font-size:0.50px">Entrada e</text>
+<text class="rot" x="4.90" y="5.46" style="font-size:0.50px">hall</text>
+<text class="ar" x="4.90" y="6.14" style="font-size:0.42px">10,80</text>
+<rect class="c c-soc" x="6.40" y="3.40" width="4.40" height="3.60"/>
+<text class="rot" x="8.60" y="5.14" style="font-size:0.50px">Cozinha</text>
+<text class="ar" x="8.60" y="5.82" style="font-size:0.42px">15,84</text>
+<rect class="c c-srv" x="10.80" y="3.40" width="2.60" height="2.00"/>
+<text class="rot sm" x="12.10" y="4.33" style="font-size:0.38px">Despensa</text>
+<text class="ar sm" x="12.10" y="4.89" style="font-size:0.32px">5,20</text>
+<rect class="c c-is" x="10.80" y="5.40" width="2.60" height="1.60"/>
+<text class="rot sm" x="12.10" y="6.13" style="font-size:0.38px">IS social</text>
+<text class="ar sm" x="12.10" y="6.69" style="font-size:0.32px">4,16</text>
+<rect class="c c-srv" x="3.40" y="7.00" width="3.00" height="2.80"/>
+<text class="rot" x="4.90" y="8.34" style="font-size:0.50px">Arrumos</text>
+<text class="ar" x="4.90" y="9.02" style="font-size:0.42px">8,40</text>
+<rect class="c c-esc" x="6.40" y="7.00" width="3.00" height="2.80"/>
+<text class="rot" x="7.90" y="8.34" style="font-size:0.50px">Escada</text>
+<text class="ar" x="7.90" y="9.02" style="font-size:0.42px">8,40</text>
+<rect class="c c-qt" x="9.40" y="7.00" width="4.00" height="2.80"/>
+<text class="rot" x="11.40" y="8.34" style="font-size:0.50px">Escrit&#243;rio</text>
+<text class="ar" x="11.40" y="9.02" style="font-size:0.42px">11,20</text>
+<rect class="c c-soc" x="3.40" y="9.80" width="10.00" height="3.60"/>
+<text class="rot" x="8.40" y="11.54" style="font-size:0.50px">Sala de estar e jantar</text>
+<text class="ar" x="8.40" y="12.22" style="font-size:0.42px">36,00</text>
+<rect class="ext" x="3.40" y="3.40" width="10.00" height="10.00"/>
+<g class="dim"><line x1="3.40" y1="15.95" x2="13.40" y2="15.95"/><line class="tk" x1="3.40" y1="15.61" x2="3.40" y2="16.29"/><line class="tk" x1="13.40" y1="15.61" x2="13.40" y2="16.29"/></g>
+<text class="dt" x="8.40" y="15.37">10,00</text>
+<g class="dim"><line x1="1.70" y1="3.40" x2="1.70" y2="7.00"/><line class="tk" x1="1.36" y1="3.40" x2="2.04" y2="3.40"/><line class="tk" x1="1.36" y1="7.00" x2="2.04" y2="7.00"/></g>
+<text class="dt" x="1.10" y="5.20" transform="rotate(-90 1.10 5.20)">3,60</text>
+<g class="dim"><line x1="1.70" y1="7.00" x2="1.70" y2="9.80"/><line class="tk" x1="1.36" y1="7.00" x2="2.04" y2="7.00"/><line class="tk" x1="1.36" y1="9.80" x2="2.04" y2="9.80"/></g>
+<text class="dt" x="1.10" y="8.40" transform="rotate(-90 1.10 8.40)">2,80</text>
+<g class="dim"><line x1="1.70" y1="9.80" x2="1.70" y2="13.40"/><line class="tk" x1="1.36" y1="9.80" x2="2.04" y2="9.80"/><line class="tk" x1="1.36" y1="13.40" x2="2.04" y2="13.40"/></g>
+<text class="dt" x="1.10" y="11.60" transform="rotate(-90 1.10 11.60)">3,60</text>
+<g class="ent" transform="translate(4.90,3.40) rotate(0)"><path d="M0,0 L0,-1.55 M-0.44,-1.02 L0,-1.55 L0.44,-1.02"/></g>
+<text class="ent-t" x="5.50" y="2.35">entrada</text>
+<g class="nor"><line x1="14.75" y1="4.30" x2="14.75" y2="6.00"/><path d="M14.43,4.75 L14.75,4.30 L15.07,4.75"/><text x="14.75" y="6.65">N</text></g>
+</svg></figure>
+    <figure><figcaption><span>Piso 1</span><b>103,00 m&#178;</b></figcaption><svg class="pl" viewBox="0 0 16.80 16.80" role="img" aria-label="Tipo B, piso 1" xmlns="http://www.w3.org/2000/svg">
+<rect class="piso" x="3.40" y="3.10" width="10.00" height="10.30"/>
+<rect class="c c-qt" x="3.40" y="3.10" width="4.00" height="4.50"/>
+<text class="rot" x="5.40" y="5.29" style="font-size:0.50px">Su&#237;te quarto</text>
+<text class="ar" x="5.40" y="5.97" style="font-size:0.42px">18,00</text>
+<rect class="c c-is" x="7.40" y="3.10" width="2.20" height="2.50"/>
+<text class="rot sm" x="8.50" y="4.02" style="font-size:0.38px">IS da</text>
+<text class="rot sm" x="8.50" y="4.54" style="font-size:0.38px">su&#237;te</text>
+<text class="ar sm" x="8.50" y="5.10" style="font-size:0.32px">5,50</text>
+<rect class="c c-qt" x="9.60" y="3.10" width="3.80" height="4.50"/>
+<text class="rot" x="11.50" y="5.29" style="font-size:0.50px">Quarto 2</text>
+<text class="ar" x="11.50" y="5.97" style="font-size:0.42px">17,10</text>
+<rect class="c c-esc" x="7.40" y="5.60" width="2.20" height="4.80"/>
+<text class="rot sm" x="8.50" y="7.68" style="font-size:0.35px">Escada e</text>
+<text class="rot sm" x="8.50" y="8.17" style="font-size:0.35px">circula&#231;&#227;o</text>
+<text class="ar sm" x="8.50" y="8.70" style="font-size:0.30px">10,56</text>
+<rect class="c c-is" x="7.40" y="10.40" width="2.20" height="3.00"/>
+<text class="rot sm" x="8.50" y="11.83" style="font-size:0.38px">IS comum</text>
+<text class="ar sm" x="8.50" y="12.39" style="font-size:0.32px">6,60</text>
+<rect class="c c-qt" x="3.40" y="7.60" width="4.00" height="5.80"/>
+<text class="rot" x="5.40" y="10.44" style="font-size:0.50px">Quarto 3</text>
+<text class="ar" x="5.40" y="11.12" style="font-size:0.42px">23,20</text>
+<rect class="c c-qt" x="9.60" y="7.60" width="3.80" height="5.80"/>
+<text class="rot" x="11.50" y="10.44" style="font-size:0.50px">Quarto 4</text>
+<text class="ar" x="11.50" y="11.12" style="font-size:0.42px">22,04</text>
+<rect class="ext" x="3.40" y="3.10" width="10.00" height="10.30"/>
+<g class="dim"><line x1="3.40" y1="15.95" x2="13.40" y2="15.95"/><line class="tk" x1="3.40" y1="15.61" x2="3.40" y2="16.29"/><line class="tk" x1="13.40" y1="15.61" x2="13.40" y2="16.29"/></g>
+<text class="dt" x="8.40" y="15.37">10,00</text>
+<g class="dim"><line x1="1.70" y1="3.10" x2="1.70" y2="13.40"/><line class="tk" x1="1.36" y1="3.10" x2="2.04" y2="3.10"/><line class="tk" x1="1.36" y1="13.40" x2="2.04" y2="13.40"/></g>
+<text class="dt" x="1.10" y="8.25" transform="rotate(-90 1.10 8.25)">10,30</text>
+<g class="nor"><line x1="14.75" y1="4.30" x2="14.75" y2="6.00"/><path d="M14.43,4.75 L14.75,4.30 L15.07,4.75"/><text x="14.75" y="6.65">N</text></g>
+</svg></figure>
+  </div>
+  <div class="raz">
+    <div class="esc">
+      <h4>Servi&#231;o &#224; rua, sala ao jardim</h4>
+      <p>Com paredes meeiras dos dois lados, s&#243; a frente norte e o tardoz sul t&#234;m luz. A entrada, a cozinha e a despensa ficam na faixa norte, junto &#224; rua; a sala ocupa os dez metros da faixa sul e abre ao logradouro. A faixa central de 2,80 m, cega por defini&#231;&#227;o, recebe a escada e a arruma&#231;&#227;o, que &#233; onde a falta de janela n&#227;o custa nada.</p>
+    </div>
+    <div class="alt">
+      <h4>Alternativa posta de lado: sala &#224; rua</h4>
+      <p>Poria a sala virada a norte, sem sol directo em nenhuma hora do ano, e a cozinha a ocupar a &#250;nica frente sul do lote. Inverte o valor das duas melhores fachadas.</p>
+    </div>
+    <div class="alt">
+      <h4>Os tr&#234;s metros quadrados a mais do piso 1</h4>
+      <p>O quadro d&#225; ao piso 1 mais &#225;rea do que &#224; implanta&#231;&#227;o, 103 contra 100. Resolve-se com um avan&#231;o de 0,30 m sobre a entrada, ao longo dos dez metros da frente: 10,00 &#215; 10,30 = 103,00 m&#178;. O avan&#231;o sombreia a porta e d&#225; uma linha horizontal &#224; fachada da rua.</p>
+    </div>
+    <div class="alt">
+      <h4>Quatro quartos, e onde est&#225; o limite</h4>
+      <p>Dois quartos na frente norte, dois no tardoz sul, instala&#231;&#245;es sanit&#225;rias na faixa central. Um quinto quarto caberia em &#225;rea mas teria de ir para o piso 0 e tirar &#224; sala uma das duas fachadas. Por isso o T5 s&#243; se recomenda em 276 e 286, que t&#234;m uma s&#243; parede meeira e frente maior.</p>
+    </div>
+  </div>
+  <div class="qwrap"><table class="q">
+    <thead><tr><th>Compartimento</th><th>Dimens&#227;o m</th><th>&#193;rea m&#178;</th><th>Entra na SP</th></tr></thead>
+    <tbody><tr class="h"><td colspan="4">Cave &#183; fora da superf&#237;cie de pavimentos</td></tr>
+<tr><td>Garagem, 2 lugares</td><td>10,00 &#215; 5,50</td><td>55,00</td><td>&#183;</td></tr>
+<tr><td>Lavandaria</td><td>3,00 &#215; 4,50</td><td>13,50</td><td>&#183;</td></tr>
+<tr><td>Arrumos</td><td>4,00 &#215; 2,50</td><td>10,00</td><td>&#183;</td></tr>
+<tr><td>Adega ou gin&#225;sio</td><td>4,00 &#215; 2,00</td><td>8,00</td><td>&#183;</td></tr>
+<tr><td>Escada</td><td>3,00 &#215; 2,50</td><td>7,50</td><td>&#183;</td></tr>
+<tr><td>T&#233;cnica</td><td>3,00 &#215; 2,00</td><td>6,00</td><td>&#183;</td></tr>
+<tr class="t"><td>Cave</td><td>10,00 &#215; 10,00</td><td>100,00</td><td>n&#227;o</td></tr>
+<tr class="h"><td colspan="4">Piso 0 &#183; implanta&#231;&#227;o</td></tr>
+<tr><td>Sala de estar e jantar</td><td>10,00 &#215; 3,60</td><td>36,00</td><td>&#183;</td></tr>
+<tr><td>Cozinha</td><td>4,40 &#215; 3,60</td><td>15,84</td><td>&#183;</td></tr>
+<tr><td>Escrit&#243;rio</td><td>4,00 &#215; 2,80</td><td>11,20</td><td>&#183;</td></tr>
+<tr><td>Entrada e hall</td><td>3,00 &#215; 3,60</td><td>10,80</td><td>&#183;</td></tr>
+<tr><td>Escada e circula&#231;&#227;o</td><td>3,00 &#215; 2,80</td><td>8,40</td><td>&#183;</td></tr>
+<tr><td>Arrumos</td><td>3,00 &#215; 2,80</td><td>8,40</td><td>&#183;</td></tr>
+<tr><td>Despensa</td><td>2,60 &#215; 2,00</td><td>5,20</td><td>&#183;</td></tr>
+<tr><td>IS social</td><td>2,60 &#215; 1,60</td><td>4,16</td><td>&#183;</td></tr>
+<tr class="t"><td>Piso 0</td><td>10,00 &#215; 10,00</td><td>100,00</td><td>sim</td></tr>
+<tr class="h"><td colspan="4">Piso 1</td></tr>
+<tr><td>Quarto 3</td><td>4,00 &#215; 5,80</td><td>23,20</td><td>&#183;</td></tr>
+<tr><td>Quarto 4</td><td>3,80 &#215; 5,80</td><td>22,04</td><td>&#183;</td></tr>
+<tr><td>Su&#237;te, quarto</td><td>4,00 &#215; 4,50</td><td>18,00</td><td>&#183;</td></tr>
+<tr><td>Quarto 2</td><td>3,80 &#215; 4,50</td><td>17,10</td><td>&#183;</td></tr>
+<tr><td>Escada e circula&#231;&#227;o</td><td>2,20 &#215; 4,80</td><td>10,56</td><td>&#183;</td></tr>
+<tr><td>IS comum</td><td>2,20 &#215; 3,00</td><td>6,60</td><td>&#183;</td></tr>
+<tr><td>Su&#237;te, IS</td><td>2,20 &#215; 2,50</td><td>5,50</td><td>&#183;</td></tr>
+<tr class="t"><td>Piso 1</td><td>10,00 &#215; 10,30</td><td>103,00</td><td>sim</td></tr>
+<tr class="t"><td>Superf&#237;cie de pavimentos</td><td>&#183;</td><td>203,00</td><td>quadro: 203,00</td></tr></tbody>
+  </table></div>
+</div>
+</section>
+
+<section>
+<div class="prancha pc">
+  <div class="pr-h">
+    <span class="id">Tipo C</span>
+    <h3>T3 &#183; moradia unifamiliar isolada</h3>
+    <span class="lots">lotes 272 &#183; 273</span>
+  </div>
+  <div class="plans">
+    <figure><figcaption><span>Cave</span><b>80,00 m&#178;</b></figcaption><svg class="pl" viewBox="0 0 16.80 14.80" role="img" aria-label="Tipo C, cave" xmlns="http://www.w3.org/2000/svg">
+<rect class="piso" x="3.40" y="3.40" width="10.00" height="8.00"/>
+<rect class="c c-srv" x="3.40" y="6.40" width="10.00" height="5.00"/>
+<text class="rot" x="8.40" y="8.84" style="font-size:0.50px">Garagem 2 lugares</text>
+<text class="ar" x="8.40" y="9.52" style="font-size:0.42px">50,00</text>
+<rect class="c c-srv" x="3.40" y="3.40" width="3.50" height="3.00"/>
+<text class="rot" x="5.15" y="4.84" style="font-size:0.50px">Lavandaria</text>
+<text class="ar" x="5.15" y="5.52" style="font-size:0.42px">10,50</text>
+<rect class="c c-esc" x="6.90" y="3.40" width="3.00" height="3.00"/>
+<text class="rot" x="8.40" y="4.52" style="font-size:0.50px">Escada e</text>
+<text class="rot" x="8.40" y="5.16" style="font-size:0.50px">arrumos</text>
+<text class="ar" x="8.40" y="5.84" style="font-size:0.42px">9,00</text>
+<rect class="c c-srv" x="9.90" y="4.90" width="3.50" height="1.50"/>
+<text class="rot sm" x="11.65" y="5.58" style="font-size:0.38px">T&#233;cnica</text>
+<text class="ar sm" x="11.65" y="6.14" style="font-size:0.32px">5,25</text>
+<rect class="c c-srv" x="9.90" y="3.40" width="3.50" height="1.50"/>
+<text class="rot sm" x="11.65" y="4.08" style="font-size:0.35px">Adega ou gin&#225;sio</text>
+<text class="ar sm" x="11.65" y="4.61" style="font-size:0.30px">5,25</text>
+<rect class="ext" x="3.40" y="3.40" width="10.00" height="8.00"/>
+<g class="dim"><line x1="3.40" y1="13.95" x2="13.40" y2="13.95"/><line class="tk" x1="3.40" y1="13.61" x2="3.40" y2="14.29"/><line class="tk" x1="13.40" y1="13.61" x2="13.40" y2="14.29"/></g>
+<text class="dt" x="8.40" y="13.37">10,00</text>
+<g class="dim"><line x1="1.70" y1="11.40" x2="1.70" y2="6.40"/><line class="tk" x1="1.36" y1="11.40" x2="2.04" y2="11.40"/><line class="tk" x1="1.36" y1="6.40" x2="2.04" y2="6.40"/></g>
+<text class="dt" x="1.10" y="8.90" transform="rotate(-90 1.10 8.90)">5,00</text>
+<g class="dim"><line x1="1.70" y1="6.40" x2="1.70" y2="3.40"/><line class="tk" x1="1.36" y1="6.40" x2="2.04" y2="6.40"/><line class="tk" x1="1.36" y1="3.40" x2="2.04" y2="3.40"/></g>
+<text class="dt" x="1.10" y="4.90" transform="rotate(-90 1.10 4.90)">3,00</text>
+<g class="ent" transform="translate(10.90,11.40) rotate(180)"><path d="M0,0 L0,-1.55 M-0.44,-1.02 L0,-1.55 L0.44,-1.02"/></g>
+<text class="ent-t" x="11.50" y="12.70">rampa</text>
+<g class="nor"><line x1="14.75" y1="4.30" x2="14.75" y2="6.00"/><path d="M14.43,4.75 L14.75,4.30 L15.07,4.75"/><text x="14.75" y="6.65">N</text></g>
+</svg></figure>
+    <figure><figcaption><span>Piso 0</span><b>80,00 m&#178;</b></figcaption><svg class="pl" viewBox="0 0 16.80 14.80" role="img" aria-label="Tipo C, piso 0" xmlns="http://www.w3.org/2000/svg">
+<rect class="piso" x="3.40" y="3.40" width="10.00" height="8.00"/>
+<rect class="c c-soc" x="3.40" y="7.80" width="10.00" height="3.60"/>
+<text class="rot" x="8.40" y="9.54" style="font-size:0.50px">Sala de estar e jantar</text>
+<text class="ar" x="8.40" y="10.22" style="font-size:0.42px">36,00</text>
+<rect class="c c-soc" x="3.40" y="3.40" width="4.00" height="4.40"/>
+<text class="rot" x="5.40" y="5.54" style="font-size:0.50px">Cozinha</text>
+<text class="ar" x="5.40" y="6.22" style="font-size:0.42px">17,60</text>
+<rect class="c c-esc" x="7.40" y="5.20" width="3.00" height="2.60"/>
+<text class="rot sm" x="8.90" y="6.43" style="font-size:0.38px">Hall e escada</text>
+<text class="ar sm" x="8.90" y="6.99" style="font-size:0.32px">7,80</text>
+<rect class="c c-is" x="10.40" y="6.00" width="3.00" height="1.80"/>
+<text class="rot sm" x="11.90" y="6.83" style="font-size:0.38px">IS social</text>
+<text class="ar sm" x="11.90" y="7.39" style="font-size:0.32px">5,40</text>
+<rect class="c c-srv" x="10.40" y="3.40" width="3.00" height="2.60"/>
+<text class="rot sm" x="11.90" y="4.37" style="font-size:0.38px">Despensa e</text>
+<text class="rot sm" x="11.90" y="4.89" style="font-size:0.38px">lavandaria</text>
+<text class="ar sm" x="11.90" y="5.45" style="font-size:0.32px">7,80</text>
+<rect class="c c-srv" x="7.40" y="3.40" width="3.00" height="1.80"/>
+<text class="rot sm" x="8.90" y="4.23" style="font-size:0.38px">Arrumos</text>
+<text class="ar sm" x="8.90" y="4.79" style="font-size:0.32px">5,40</text>
+<rect class="ext" x="3.40" y="3.40" width="10.00" height="8.00"/>
+<g class="dim"><line x1="3.40" y1="13.95" x2="13.40" y2="13.95"/><line class="tk" x1="3.40" y1="13.61" x2="3.40" y2="14.29"/><line class="tk" x1="13.40" y1="13.61" x2="13.40" y2="14.29"/></g>
+<text class="dt" x="8.40" y="13.37">10,00</text>
+<g class="dim"><line x1="1.70" y1="11.40" x2="1.70" y2="7.80"/><line class="tk" x1="1.36" y1="11.40" x2="2.04" y2="11.40"/><line class="tk" x1="1.36" y1="7.80" x2="2.04" y2="7.80"/></g>
+<text class="dt" x="1.10" y="9.60" transform="rotate(-90 1.10 9.60)">3,60</text>
+<g class="dim"><line x1="1.70" y1="7.80" x2="1.70" y2="3.40"/><line class="tk" x1="1.36" y1="7.80" x2="2.04" y2="7.80"/><line class="tk" x1="1.36" y1="3.40" x2="2.04" y2="3.40"/></g>
+<text class="dt" x="1.10" y="5.60" transform="rotate(-90 1.10 5.60)">4,40</text>
+<g class="ent" transform="translate(10.90,11.40) rotate(180)"><path d="M0,0 L0,-1.55 M-0.44,-1.02 L0,-1.55 L0.44,-1.02"/></g>
+<text class="ent-t" x="11.50" y="12.70">entrada</text>
+<g class="nor"><line x1="14.75" y1="4.30" x2="14.75" y2="6.00"/><path d="M14.43,4.75 L14.75,4.30 L15.07,4.75"/><text x="14.75" y="6.65">N</text></g>
+</svg></figure>
+    <figure><figcaption><span>Piso 1</span><b>68,40 m&#178;</b></figcaption><svg class="pl" viewBox="0 0 16.80 14.80" role="img" aria-label="Tipo C, piso 1" xmlns="http://www.w3.org/2000/svg">
+<rect class="piso" x="3.40" y="3.40" width="10.00" height="6.84"/>
+<rect class="trc" x="3.40" y="10.24" width="10.00" height="1.16"/>
+<text class="trc-t" x="8.40" y="10.82">varanda 11,60 m&#178;</text>
+<rect class="c c-qt" x="3.40" y="3.40" width="4.00" height="4.00"/>
+<text class="rot" x="5.40" y="5.34" style="font-size:0.50px">Su&#237;te quarto</text>
+<text class="ar" x="5.40" y="6.02" style="font-size:0.42px">16,00</text>
+<rect class="c c-qt" x="9.40" y="3.40" width="4.00" height="4.00"/>
+<text class="rot" x="11.40" y="5.34" style="font-size:0.50px">Quarto 2</text>
+<text class="ar" x="11.40" y="6.02" style="font-size:0.42px">16,00</text>
+<rect class="c c-is" x="7.40" y="3.40" width="2.00" height="2.40"/>
+<text class="rot sm" x="8.40" y="4.27" style="font-size:0.38px">IS da</text>
+<text class="rot sm" x="8.40" y="4.79" style="font-size:0.38px">su&#237;te</text>
+<text class="ar sm" x="8.40" y="5.35" style="font-size:0.32px">4,80</text>
+<rect class="c c-esc" x="7.40" y="5.80" width="2.00" height="4.44"/>
+<text class="rot sm" x="8.40" y="7.69" style="font-size:0.38px">Escada e</text>
+<text class="rot sm" x="8.40" y="8.21" style="font-size:0.38px">patamar</text>
+<text class="ar sm" x="8.40" y="8.77" style="font-size:0.32px">8,88</text>
+<rect class="c c-qt" x="3.40" y="7.40" width="4.00" height="2.84"/>
+<text class="rot" x="5.40" y="8.76" style="font-size:0.50px">Quarto 3</text>
+<text class="ar" x="5.40" y="9.44" style="font-size:0.42px">11,36</text>
+<rect class="c c-is" x="9.40" y="7.40" width="2.00" height="2.84"/>
+<text class="rot sm" x="10.40" y="8.75" style="font-size:0.38px">IS comum</text>
+<text class="ar sm" x="10.40" y="9.31" style="font-size:0.32px">5,68</text>
+<rect class="c c-srv" x="11.40" y="7.40" width="2.00" height="2.84"/>
+<text class="rot sm" x="12.40" y="8.75" style="font-size:0.38px">Roupeiro</text>
+<text class="ar sm" x="12.40" y="9.31" style="font-size:0.32px">5,68</text>
+<rect class="ext" x="3.40" y="3.40" width="10.00" height="6.84"/>
+<g class="dim"><line x1="3.40" y1="13.95" x2="13.40" y2="13.95"/><line class="tk" x1="3.40" y1="13.61" x2="3.40" y2="14.29"/><line class="tk" x1="13.40" y1="13.61" x2="13.40" y2="14.29"/></g>
+<text class="dt" x="8.40" y="13.37">10,00</text>
+<g class="dim"><line x1="1.70" y1="10.24" x2="1.70" y2="3.40"/><line class="tk" x1="1.36" y1="10.24" x2="2.04" y2="10.24"/><line class="tk" x1="1.36" y1="3.40" x2="2.04" y2="3.40"/></g>
+<text class="dt" x="1.10" y="6.82" transform="rotate(-90 1.10 6.82)">6,84</text>
+<g class="dim"><line x1="1.70" y1="11.40" x2="1.70" y2="10.24"/><line class="tk" x1="1.36" y1="11.40" x2="2.04" y2="11.40"/><line class="tk" x1="1.36" y1="10.24" x2="2.04" y2="10.24"/></g>
+<text class="dt" x="1.10" y="10.82" transform="rotate(-90 1.10 10.82)">1,16</text>
+<g class="nor"><line x1="14.75" y1="4.30" x2="14.75" y2="6.00"/><path d="M14.43,4.75 L14.75,4.30 L15.07,4.75"/><text x="14.75" y="6.65">N</text></g>
+</svg></figure>
+  </div>
+  <div class="raz">
+    <div class="esc">
+      <h4>Os tr&#234;s quartos sobem, o piso 0 fica todo social</h4>
+      <p>Ao contr&#225;rio do Tipo A, aqui o piso 1 tem 68,42 m&#178;, quase tanto como a implanta&#231;&#227;o. Cabem l&#225; os tr&#234;s quartos e duas instala&#231;&#245;es sanit&#225;rias, o que liberta os 80 m&#178; do piso 0 inteiros para sala, cozinha e apoio. &#201; a repartição oposta &#224; do Tipo A, e vem da forma como o quadro divide a mesma superf&#237;cie de pavimentos de 148,42 m&#178;.</p>
+    </div>
+    <div class="alt">
+      <h4>Implanta&#231;&#227;o deitada, 10,00 por 8,00</h4>
+      <p>Sendo isolado, o lote de 17,00 m de frente n&#227;o obriga a nada. Escolhi a implanta&#231;&#227;o mais larga do que funda para dar &#224; sala os dez metros virados a sul, e para os quartos do piso 1 ficarem dois a nascente e poente e um a sul, todos com janela em fachada livre.</p>
+    </div>
+    <div class="alt">
+      <h4>Alternativa posta de lado: reutilizar o Tipo A</h4>
+      <p>Ter&#237;amos um s&#243; desenho para os seis lotes da fila norte. Mas o Tipo A tem 104 m&#178; de implanta&#231;&#227;o e estes lotes t&#234;m 80, e o seu piso 1 &#233; de 44 m&#178; contra 68. Adaptar significaria refazer os dois pisos, e o resultado desperdi&#231;aria a &#250;nica coisa que estes dois lotes t&#234;m de melhor, que &#233; serem isolados.</p>
+    </div>
+    <div class="alt">
+      <h4>A varanda de 11,60 m&#178;</h4>
+      <p>O piso 1 recua 1,16 m da frente sul, o que fecha os 68,42 m&#178; do quadro e deixa uma varanda corrida sobre a sala, virada ao sol e &#224; rua, acess&#237;vel do quarto 3.</p>
+    </div>
+  </div>
+  <div class="qwrap"><table class="q">
+    <thead><tr><th>Compartimento</th><th>Dimens&#227;o m</th><th>&#193;rea m&#178;</th><th>Entra na SP</th></tr></thead>
+    <tbody><tr class="h"><td colspan="4">Cave &#183; fora da superf&#237;cie de pavimentos</td></tr>
+<tr><td>Garagem, 2 lugares</td><td>10,00 &#215; 5,00</td><td>50,00</td><td>&#183;</td></tr>
+<tr><td>Lavandaria</td><td>3,50 &#215; 3,00</td><td>10,50</td><td>&#183;</td></tr>
+<tr><td>Escada e arrumos</td><td>3,00 &#215; 3,00</td><td>9,00</td><td>&#183;</td></tr>
+<tr><td>T&#233;cnica</td><td>3,50 &#215; 1,50</td><td>5,25</td><td>&#183;</td></tr>
+<tr><td>Adega ou gin&#225;sio</td><td>3,50 &#215; 1,50</td><td>5,25</td><td>&#183;</td></tr>
+<tr class="t"><td>Cave</td><td>10,00 &#215; 8,00</td><td>80,00</td><td>n&#227;o</td></tr>
+<tr class="h"><td colspan="4">Piso 0 &#183; implanta&#231;&#227;o</td></tr>
+<tr><td>Sala de estar e jantar</td><td>10,00 &#215; 3,60</td><td>36,00</td><td>&#183;</td></tr>
+<tr><td>Cozinha</td><td>4,00 &#215; 4,40</td><td>17,60</td><td>&#183;</td></tr>
+<tr><td>Hall e escada</td><td>3,00 &#215; 2,60</td><td>7,80</td><td>&#183;</td></tr>
+<tr><td>Despensa e lavandaria</td><td>3,00 &#215; 2,60</td><td>7,80</td><td>&#183;</td></tr>
+<tr><td>IS social</td><td>3,00 &#215; 1,80</td><td>5,40</td><td>&#183;</td></tr>
+<tr><td>Arrumos</td><td>3,00 &#215; 1,80</td><td>5,40</td><td>&#183;</td></tr>
+<tr class="t"><td>Piso 0</td><td>10,00 &#215; 8,00</td><td>80,00</td><td>sim</td></tr>
+<tr class="h"><td colspan="4">Piso 1</td></tr>
+<tr><td>Su&#237;te, quarto</td><td>4,00 &#215; 4,00</td><td>16,00</td><td>&#183;</td></tr>
+<tr><td>Quarto 2</td><td>4,00 &#215; 4,00</td><td>16,00</td><td>&#183;</td></tr>
+<tr><td>Quarto 3</td><td>4,00 &#215; 2,84</td><td>11,36</td><td>&#183;</td></tr>
+<tr><td>Escada e patamar</td><td>2,00 &#215; 4,44</td><td>8,88</td><td>&#183;</td></tr>
+<tr><td>IS comum</td><td>2,00 &#215; 2,84</td><td>5,68</td><td>&#183;</td></tr>
+<tr><td>Roupeiro</td><td>2,00 &#215; 2,84</td><td>5,68</td><td>&#183;</td></tr>
+<tr><td>Su&#237;te, IS</td><td>2,00 &#215; 2,40</td><td>4,80</td><td>&#183;</td></tr>
+<tr class="t"><td>Piso 1</td><td>10,00 &#215; 6,84</td><td>68,40</td><td>sim</td></tr>
+<tr class="t"><td>Superf&#237;cie de pavimentos</td><td>&#183;</td><td>148,40</td><td>quadro: 148,42</td></tr></tbody>
+  </table></div>
+</div>
+</section>
+
+<section>
+  <h2 class="s">Os tr&#234;s tipos, e porque s&#227;o tr&#234;s</h2>
+  <div class="lead">
+    <p>A forma de implanta&#231;&#227;o que o Plano fixa para cada lote &#233; que manda: <b>geminada</b> nos 270, 271, 274 e 275, com uma parede meeira; <b>isolada</b> nos 272 e 273, com quatro fachadas; <b>em banda</b> nos 276 a 286, com duas paredes meeiras nos interiores. N&#227;o &#233; uma escolha de projecto, vem do quadro, e cada uma imp&#245;e uma reparti&#231;&#227;o diferente entre os dois pisos. Da&#237; tr&#234;s tipos e n&#227;o um.</p>
+  </div>
+  <div class="aviso">
+    <b>O que estas plantas n&#227;o s&#227;o.</b> S&#227;o rect&#226;ngulos com &#225;reas certas, n&#227;o projecto licenci&#225;vel. N&#227;o t&#234;m espessuras de parede reais, estrutura, v&#227;os cotados, nem verifica&#231;&#227;o do RGEU compartimento a compartimento. As dimens&#245;es est&#227;o medidas ao eixo dos rect&#226;ngulos, pelo que as &#225;reas &#250;teis constru&#237;das ficar&#227;o cerca de 12 a 14 por cento abaixo das indicadas.
+  </div>
+</section>
+
+<section>
+  <h2 class="s">Por confirmar antes de avan&#231;ar</h2>
+  <ul>
+    <li><b>N&#250;mero de pisos e c&#233;rcea.</b> N&#227;o constam do quadro extra&#237;do nem do articulado do Regulamento. Toda a proposta assume dois pisos acima da soleira mais cave, leitura que vem de SP = implanta&#231;&#227;o + piso 1. Se a Planta de Implanta&#231;&#227;o disser outra coisa, os dois tipos caem.</li>
+    <li><b>Acesso &#224; garagem.</b> A cave s&#243; funciona com rampa. Na fila norte os lotes est&#227;o em escava&#231;&#227;o de at&#233; 1,62 m e na banda sul em aterro de at&#233; 1,98 m, e a rua fica abaixo das plataformas: o perfil da rampa tem de ser verificado lote a lote contra o perfil longitudinal da Rua da Casa Senhorial.</li>
+    <li><b>Uso habit&#225;vel da cave.</b> A adega ou gin&#225;sio desenhado depende da cota real de soleira face ao terreno e das regras do RGEU para pisos enterrados. Nenhum quarto foi posto na cave.</li>
+    <li><b>Piscina.</b> Estas plantas n&#227;o a incluem. Somando-a, continua a mandar o Art.&#186; 25.&#186; n.&#186; 3: as &#225;reas perme&#225;veis do logradouro n&#227;o podem descer de metade. No lote 274, o mais apertado, isso s&#227;o 105,31 m&#178; num logradouro de 210,63 m&#178;.</li>
+    <li><b>Um s&#243; fogo por lote.</b> Assumido, por serem todos moradia unifamiliar no quadro. N&#227;o consegui confirmar no articulado que o Plano o pro&#237;ba expressamente.</li>
+  </ul>
+</section>
+
+<footer>
+  <p><b>Fontes.</b> Quadro de valores parciais PD.01a_R01 e Planta de Implanta&#231;&#227;o PD.01 do PPVRF, para &#225;reas, implanta&#231;&#245;es, frentes e cotas de soleira. Regulamento do PPVRF, Aviso n.&#186; 16203/2010, DR 2.&#170; s&#233;rie n.&#186; 157, de 13-08-2010, para o Art.&#186; 25.&#186; As tipologias recomendadas vieram do quadro sin&#243;tico do modelo 3D da UE4.</p>
+  <p><b>Desvio conhecido.</b> O piso 1 do Tipo A est&#225; desenhado com 5,55 m de profundidade, o que d&#225; 44,40 m&#178; contra os 44,43 m&#178; do quadro. Fecha ao cent&#233;simo com 5,554 m. A diferen&#231;a &#233; de 0,03 m&#178;.</p>
+</footer>
+</div>
+</body>
+</html>
