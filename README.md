@@ -31,6 +31,17 @@ Em Vercel → Settings → Domains adicionar `villaromanadefreiria.com` e `www.v
 
 Os ficheiros HTML são gerados a partir dos artifacts do claude.ai e da pasta PPVRF pelo script `build.py` (fora deste repositório). Editar e fazer commit; a Vercel publica em cada push para `main`.
 
+## Blender MCP (Claude Code)
+
+O ficheiro `.mcp.json` regista o servidor MCP `blender` ([ahujasid/blender-mcp](https://github.com/ahujasid/blender-mcp), pacote PyPI `mcp-for-blender`) com âmbito de projecto; é o equivalente a `claude mcp add --scope project blender -- uvx mcp-for-blender`. Ao abrir o repositório no Claude Code, este pede para aprovar o servidor.
+
+Requisitos na máquina local:
+
+- `uv` instalado (fornece `uvx`).
+- Blender aberto com o add-on `addon.py` do repositório acima instalado e activo (painel lateral BlenderMCP → *Connect to Claude*). O servidor liga-se por socket a `localhost:9876` (alterável com `BLENDER_HOST` e `BLENDER_PORT`).
+
+O servidor não funciona nas sessões cloud do Claude Code, porque o Blender tem de correr na mesma máquina. O `.vercelignore` impede que o `.mcp.json` seja publicado no site.
+
 ## Direitos
 
 As 20 fotografias em `/privado/fotos/` são de terceiros sem licença de reutilização confirmada; não devem sair da área reservada. Os desenhos ENGISTEP, a DIA e os contratos são documentos do processo do PPVRF.
